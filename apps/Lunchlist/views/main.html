@@ -1,0 +1,1 @@
+<!-- The Grid --> <div class="Grid"> <div class="Grid-cell futucell u-1of3 maincell"> <span ng-controller="FoodCtrl"> <div class="foods loading" ng-if="foodLoading"><span>Loading Lunch Places...</span></div> <div ng-if="!foodLoading"> <h1 class="date-title" ng-if="!foodLoading">{{currentDate}}</h1> <div ng-bind-html="foodData" class="foods"></div> </div> </span> </div> </div>
